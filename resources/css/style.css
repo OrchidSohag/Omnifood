@@ -24,6 +24,7 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -61,6 +62,9 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+.section-features{
+    margin-bottom: 40px;
+}
 h1,h2,h3{
     font-style: italic;
     text-transform: uppercase;
@@ -145,10 +149,14 @@ h3{
     background-color: chocolate;
 }
 
+/*-----End Header-----*/
+
 .long-copy{
     line-height: 145%;
+    font-size: 104%;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 10px;
 }
 
 .box{
@@ -164,10 +172,35 @@ h3{
     color: chocolate;
     margin-bottom: 10px;
 }
-/*-----End Header-----*/
 
+/*-----End Section-----*/
 
-
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal-photo img{
+    opacity: .7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.20);
+    transition: transform .5s, opacity .5s;
+}
+.meal-photo img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
 
 
 
