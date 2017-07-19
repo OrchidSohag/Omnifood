@@ -12,6 +12,15 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 .row{
     max-width: 1140px;
     margin: 0 auto;
@@ -24,7 +33,7 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .logo{
@@ -62,9 +71,6 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
-.section-features{
-    margin-bottom: 40px;
-}
 h1,h2,h3{
     font-style: italic;
     text-transform: uppercase;
@@ -90,7 +96,7 @@ h2{
 h2:after{
     display: block;
     height: 2px;
-    background-color: chocolate;
+    background-color: darkcyan;
     content: " ";
     width:100px;
     margin: 0 auto;
@@ -169,12 +175,18 @@ h3{
 .icon{
     font-size: 350%;
     display: block;
-    color: chocolate;
+    color: darkcyan;
     margin-bottom: 10px;
 }
 
+.section-features{
+    margin-bottom: 20px;
+}
 /*-----End Section-----*/
 
+.meals-section{
+    margin-bottom: 40px;
+}
 .meals-showcase{
     list-style: none;
     width: 100%;
@@ -190,6 +202,7 @@ h3{
     background-color: black;
     overflow: hidden;
 }
+
 .meal-photo img{
     opacity: .7;
     width: 100%;
@@ -197,26 +210,55 @@ h3{
     transform: scale(1.20);
     transition: transform .5s, opacity .5s;
 }
+
 .meal-photo img:hover{
     transform: scale(1);
     opacity: 1;
 }
 
+/*-----End Meal Section-----*/
 
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
 
+.step-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
 
+.app-screen{
+    width: 40%;
+}
 
+.work-steps{
+    margin-bottom: 50px;
+}
 
+.work-steps:last-of-type{
+    margin-bottom: 80px;
+}
+.work-steps div{
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
 
+}
 
+.app-btn img{
+    height: 50px;
+    width: auto;
+    margin-right: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
+/*-----End  How It Works Section-----*/
