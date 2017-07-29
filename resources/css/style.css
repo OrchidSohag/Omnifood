@@ -125,7 +125,8 @@ h3{
 
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display:inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -136,7 +137,8 @@ h3{
 }
 
 .b1:link,
-.b1:visited{
+.b1:visited,
+input[type=submit]{
     background-color: chocolate;
     border: 2px solid cadetblue;
     color:aliceblue;
@@ -151,7 +153,9 @@ h3{
 }
 
 .b1:hover,
-.b1:active{
+.b1:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     border: 2px solid chocolate;
     background-color:cadetblue;
 }
@@ -398,18 +402,31 @@ cite img{
 .plan-box ul li{
     padding: 10px 0;
 }
+/*------End sign up section-------*/
 
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
 
+*:focus{ outline: none;}
 
+input[type=text],
+input[type=email],
+select,textarea{
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+}
 
+textarea{
+    height: 110px;
+}
 
-
-
-
-
-
-
-
-
-
+input[type=checkbox]{
+    margin: 10px 8px 10px 0;
+    padding: 3px;
+}
+/*------End form section--------*/
 
