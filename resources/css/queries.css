@@ -7,7 +7,6 @@
     .row { padding: 0 2%;}
 }
 
-/
 @media only screen and (max-width: 1023px) {
     body { font-size: 16px;}
     section { padding: 55px 0;}
@@ -37,9 +36,6 @@
 
     .contact-form { width: 80%;}
 }
-
-
-
 
 @media only screen and (max-width: 767px) {
     body { font-size: 16px;}
@@ -74,7 +70,6 @@
     .works-step { margin-bottom: 20px}
     .works-step:last-of-type { margin-bottom: 20px}
 }
-
 
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
