@@ -57,7 +57,7 @@ header{
 
 .main-nav li  a:link,
 .main-nav li a:visited{
-    color: cyan;
+    color: #fff;
     padding: 10px 0px;
     text-decoration: none;
     text-transform: uppercase;
@@ -78,7 +78,7 @@ h1,h2,h3{
 }
 
 h1{
-    color:cyan;
+    color:#fff;
     margin: 0;
     font-size: 240%;
     font-weight: 500;
@@ -104,7 +104,7 @@ h2:before{
 h2:after{
     display: block;
     height: 2px;
-    background-color: darkcyan;
+    background-color: #E67E22;
     content: " ";
     width:100px;
     margin: 0 auto;
@@ -141,7 +141,7 @@ input[type=submit]{
 .b1:visited,
 input[type=submit]{
     background-color: chocolate;
-    border: 2px solid cadetblue;
+    border: 2px solid #E67E22;
     color:aliceblue;
     margin-right: 30px;
     margin-left: 10px;
@@ -158,11 +158,11 @@ input[type=submit]{
 input[type=submit]:hover,
 input[type=submit]:active{
     border: 2px solid chocolate;
-    background-color:cadetblue;
+    background-color:#E67E22;
 }
 .b2:hover,
 .b2:active{
-    border: 2px solid cadetblue;
+    border: 2px solid #E67E22;
     color: aliceblue;
     background-color: chocolate;
 }
@@ -187,7 +187,7 @@ input[type=submit]:active{
 .icon{
     font-size: 350%;
     display: block;
-    color: darkcyan;
+    color: dark#fff;
     margin-bottom: 10px;
 }
 
@@ -253,8 +253,8 @@ input[type=submit]:active{
     margin-bottom: 80px;
 }
 .work-steps div{
-    color: darkcyan;
-    border: 2px solid darkcyan;
+    color: dark#fff;
+    border: 2px solid dark#fff;
     display: inline-block;
     border-radius: 50%;
     height: 50px;
@@ -293,7 +293,7 @@ input[type=submit]:active{
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: darkcyan;
+    color: dark#fff;
     margin-right: 10px;
     font-size: 120%;
     line-height: 120%;
@@ -303,10 +303,10 @@ input[type=submit]:active{
 
 a:link,
 a:visited{
-    color: darkcyan;
+    color: dark#fff;
     padding-bottom: 2px;
     text-decoration: none;
-    border-bottom: 1px solid darkcyan;
+    border-bottom: 1px solid dark#fff;
     transition: border-bottom .4s;
     font-style: italic;
 }
@@ -384,12 +384,12 @@ cite img{
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 300;
-    color: cadetblue;
+    color: #E67E22;
 }
 
 .plan-price span{
     font-size: 30%;
-    color: darkcyan;
+    color: dark#fff;
 }
 .plan-price-meal{
     font-size: 80%;
